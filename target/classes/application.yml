@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: sms-service
+  rabbitmq:
+    host: 39.102.53.82
+    username: raorao
+    password: raorao
+    virtual-host: /raorao
+server:
+  port: 8086
+
+raorao:
+  sms:
+    secretId: AKIDyVnpa5rYtwMXGI9LXSfbuGMCk13qgdfQ
+    secretKey: ehmeFafX7VrypxpFQLzPAfy1nIWv2oLb
+    appId : 1400498824 # 短信应用 ID: 在 [短信控制台] 添加应用后生成的实际 SDKAppID
+    sign: 学习研究78 #签名名称
+    templateID: 903036 #模板ID

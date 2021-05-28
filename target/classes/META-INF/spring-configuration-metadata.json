@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "name": "raorao.sms",
+      "type": "com.itmd.sms.Config.SmsProperties",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "raorao.sms.app-id",
+      "type": "java.lang.String",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    },
+    {
+      "name": "raorao.sms.secret-id",
+      "type": "java.lang.String",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    },
+    {
+      "name": "raorao.sms.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    },
+    {
+      "name": "raorao.sms.sign",
+      "type": "java.lang.String",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    },
+    {
+      "name": "raorao.sms.template-i-d",
+      "type": "java.lang.String",
+      "sourceType": "com.itmd.sms.Config.SmsProperties"
+    }
+  ],
+  "hints": []
+}
